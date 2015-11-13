@@ -58,9 +58,9 @@ By using this Site, you signify your acceptance of this policy and <a href="http
 
 If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at:
 
-<a href="selenesoftware.us">Selene Software</a>
+<a href="/">Selene Software</a>
 
-<a href="selenesoftware.us">selenesoftware.us</a>
+<a href="/">selenesoftware.us</a>
 
 586.612.2463
 
@@ -69,4 +69,4 @@ selene.software.web@gmail.com
 
 
 This document was last updated on March 11, 2015
-<div style="font-size: 10px; color: gray;">Privacy policy created by <a style="font-size: 10px; color: gray; text-decoration: none; cursor: default;" href="http://selenesoftware.us/wp-content/uploads/2015/02/www.generateprivacypolicy.com" target="_blank">Generate Privacy Policy</a></div>
+<div style="font-size: 10px; color: gray;">Privacy policy created by <a style="font-size: 10px; color: gray; text-decoration: none; cursor: default;" href="http://www.generateprivacypolicy.com" target="_blank">Generate Privacy Policy</a></div>

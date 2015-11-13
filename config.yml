@@ -17,4 +17,8 @@ carousel:
     - { url: detroit-slide-1.jpg }
     - { url: slide-1.jpg }
     - { url: slide-2.jpg }
-    - { url: slide-3.jpg } 
+    - { url: slide-3.jpg }
+
+google_analytics:
+    id: UA-66067907-1
+    site: selenesoftware.us 

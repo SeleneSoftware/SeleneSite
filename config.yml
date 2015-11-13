@@ -1,0 +1,20 @@
+title: "Selene Software"
+logo: false
+background: bricks.jpg
+
+company:
+    name: "Selene Software"
+    address: false, 
+    city: "Detroit, MI"
+    phone: "586.612.2463"
+    email: "selene.software.us@gmail.com"
+
+author:
+    name: Jason Marshall
+    email: psion1369@gmail.com
+   
+carousel:
+    - { url: detroit-slide-1.jpg }
+    - { url: slide-1.jpg }
+    - { url: slide-2.jpg }
+    - { url: slide-3.jpg } 

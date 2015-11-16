@@ -1,7 +1,7 @@
 {
     "name": "vendor/your-theme-name",
     "description": "The description for your theme",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "type": "spress-theme",
     "require": {
             "yosymfony/spress-installer": ">=1.0,<2.0"

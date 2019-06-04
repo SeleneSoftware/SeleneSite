@@ -1,15 +1,6 @@
 {
-    "name": "vendor/your-theme-name",
-    "description": "The description for your theme",
-    "license": "Apache-2.0",
-    "type": "spress-theme",
+    "name": "selenesoftware/selenestaticskeleton",
     "require": {
-            "yosymfony/spress-installer": ">=1.0,<2.0"
-    },
-    "config": {
-        "vendor-dir": "_plugins/vendors"
-    },
-    "extra": {
-        "spress_name": "your-theme-name"
+        "selenesoftware/staticsite": "*"
     }
 }

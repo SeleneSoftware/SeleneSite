@@ -1,4 +1,8 @@
-/_plugins/
-/_site/
+/vendor/
+/node_modules/
+
+/web/
+/cache/
+
 *.swp
 

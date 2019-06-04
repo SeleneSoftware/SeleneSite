@@ -1,0 +1,200 @@
+// Put your SCSS or CSS in here.  Funny thing about SCSS is that CSS is valid syntax.
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,b");
+@import "./lib/foundation";
+@import "./lib/wireframe-theme";
+
+/* Text Elements */
+
+h1.site-title {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Montserrat', cursive;
+}
+
+h3 {
+  color: #2a617d;
+  font-size: 20px;
+  font-family: 'Montserrat', cursive;
+  &.section-title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+h5 {
+  text-align: center;
+  font-style: italic;
+  font-size: 26px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  &.service-title {
+    margin-top: 10px;
+    color: #18191a;
+  }
+}
+
+p.paragraph.paragraph-1 {
+  color: rgba(30, 30, 30, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+  &.link-text {
+    &.nav-button {
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-top-color: rgba(0, 0, 0, 0.4);
+      border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.4);
+      background-color: #3d3d3d;
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Montserrat', cursive;
+    }
+    &.footer-nav {
+      padding: 10px 20px;
+      color: #424345;
+      font-family: 'Montserrat', cursive;
+    }
+    &.nav-button:hover {
+      background-color: #000;
+    }
+  }
+  &.link-button {
+    font-size: 18px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    &.action-btn {
+      border-radius: 7px;
+      background-color: #232323;
+    }
+  }
+}
+
+/* Interaction Elements */
+
+/* Layout Elements */
+
+.container {
+  &.service {
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 400px;
+  }
+  &.container-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+  }
+  &.footer-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    margin-bottom: 60px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+  }
+}
+
+div.responsive-picture {
+  max-width: none;
+}
+
+@media screen and (min-width: 40rem) {
+  /* Text Elements */
+  a.link-text.nav-button {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 200px;
+    border-left: .0625rem solid #000;
+    &:last-of-type {
+      border-right: .0625rem solid #000;
+    }
+  }
+  /* Layout Elements */
+  .container {
+    &.nav-wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      background-color: #3d3d3d;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -moz-box-pack: center;
+      justify-content: center;
+    }
+    &.services-grid {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    &.container-1 {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 600px;
+    }
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  /* Layout Elements */
+  .container {
+    &.nav-wrapper, &.hero-section {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1400px;
+    }
+    &.services-grid, &.footer {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1200px;
+    }
+  }
+}

@@ -2,6 +2,7 @@
 <html>
 
     <head>
+        {{ include('layout/includes/google.html.twig') }}
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="description" content="Custom web software created by Selene Software">
@@ -21,47 +22,44 @@
 
     <body class="no-js">
         {{ include('layout/includes/header.html.twig') }}
-        <h3 class="section-title">TRAVEL NEW HORIZONS<br>
-        </h3>
+
+        {%block body %}
+        <h3 class="section-title">{{ subtitle }}</h3>
         <div class="container services-grid">
+
             <div class="container service">
                 <div class="responsive-picture">
-                    <picture><img alt="Placeholder Picture" src="/assets/images/discover-m.jpg">
+                    <picture><img alt="Placeholder Picture" src="/assets/images/{{ pictures.serviceOne }}">
                     </picture>
                 </div>
                 <h5 class="service-title">Discover.</h5>
             </div>
+
             <div class="container service">
                 <div class="responsive-picture">
-                    <picture><img alt="Placeholder Picture" src="/assets/images/exquisite-m.jpg">
+                    <picture><img alt="Placeholder Picture" src="/assets/images/{{ pictures.serviceTwo }}">
                     </picture>
                 </div>
                 <h5 class="service-title">Exquisite.<br>
                 </h5>
             </div>
+
             <div class="container service">
                 <div class="responsive-picture">
-                    <picture><img alt="Placeholder Picture" src="/assets/images/places-m.jpg">
+                    <picture><img alt="Placeholder Picture" src="/assets/images/{{ pictures.serviceThree }}">
                     </picture>
                 </div>
                 <h5 class="service-title">Places.<br>
                 </h5>
             </div>
+
         </div>
         <div class="container container-1">
-            <p class="paragraph paragraph-1">Travel with us and you will <strong>not believe</strong> what you see. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nibh risus, sagittis nec suscipit nec, mollis laoreet eros. <strong>Donec faucibus</strong>, libero id faucibus scelerisque, justo justo nullam sodales.<br>
-            </p><a class="link-button action-btn button" href="#">Book Today</a>
+            <p class="paragraph paragraph-1">{{ description }}</p>
+            <a class="link-button action-btn button" href="/contact">{{ cta }}</a>
         </div>
-        <div class="container footer">
-            <div class="rule">
-                <hr>
-            </div>
-            <div class="container footer-nav">
-                <a class="link-text footer-nav" href="#">About us</a>
-                <a class="link-text footer-nav" href="#">Made with CSS Grid Builder</a>
-                <a class="link-text footer-nav" href="#">Check this out</a>
-            </div>
-        </div>
+        {% endblock %}
+        {{ include('layout/includes/footer.html.twig') }}
         <script src="/assets/app.js"></script>
     </body>
 

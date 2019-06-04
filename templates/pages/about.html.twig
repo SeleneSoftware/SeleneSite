@@ -1,0 +1,12 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block body %}
+    <h3 class="section-title">{{ subtitle }}</h3>
+    <div class="container container-1">
+        <a class="link-button action-btn button" href="/contact">{{ cta }}</a>
+        <p class="paragraph paragraph-1">
+        {{ pagecontent|markdown|raw }}
+        </p>
+        <a class="link-button action-btn button" href="/contact">{{ cta }}</a>
+    </div>
+{% endblock %}

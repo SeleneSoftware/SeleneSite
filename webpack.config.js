@@ -42,6 +42,11 @@ Encore
         from: 'assets/images',
         to: 'images/[path][name].[ext]'
     })
+    .copyFiles({
+        from: 'assets/js',
+        pattern: '/picturefill/',
+        to: '[name].[ext]'
+    })
 
 ;
 

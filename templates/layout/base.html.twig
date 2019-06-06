@@ -8,19 +8,12 @@
         <meta name="description" content="Custom web software created by Selene Software">
         <meta name="keywords" content="web, software, react, react native, web development">
         <title>{{ title }}</title>
-        {#
-        <link rel="stylesheet" href="css/foundation.min.css">
-        <link rel="stylesheet" href="css/wireframe-theme.min.css">
-        #}
         <script>document.createElement( "picture" );</script>
-        <script class="picturefill" async="async" src="/picturefill.min.js"></script>
+        <script class="picturefill" async="async" src="/assets/picturefill.min.js"></script>
         <link rel="stylesheet" href="/assets/app.css">
-        {#
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,b">
-        #}
     </head>
 
-    <body class="no-js">
+    <body class="no-js {{ type|default('home') }}">
         {{ include('layout/includes/header.html.twig') }}
 
         {%block body %}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a82014d7cffa5bf270ebbf1bcb352cf",
+    "content-hash": "d43988bbd7f4b4a3dd79d3b2d4ebedf7",
     "packages": [
         {
             "name": "aptoma/twig-markdown",
@@ -111,23 +111,23 @@
         },
         {
             "name": "selenesoftware/staticsite",
-            "version": "0.0.3",
+            "version": "dev-plugins",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SeleneSoftware/seleneStaticLib.git",
-                "reference": "951969b0ddaa18620e6afb67f22fd3582fc583ad"
+                "reference": "0782f4422f232acfc77f01a2b6af1939075e188e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SeleneSoftware/seleneStaticLib/zipball/951969b0ddaa18620e6afb67f22fd3582fc583ad",
-                "reference": "951969b0ddaa18620e6afb67f22fd3582fc583ad",
+                "url": "https://api.github.com/repos/SeleneSoftware/seleneStaticLib/zipball/0782f4422f232acfc77f01a2b6af1939075e188e",
+                "reference": "0782f4422f232acfc77f01a2b6af1939075e188e",
                 "shasum": ""
             },
             "require": {
-                "aptoma/twig-markdown": "^3.0",
+                "aptoma/twig-markdown": "^3.2",
                 "erusev/parsedown": "^1.7",
-                "symfony/yaml": "^4.1",
-                "twig/twig": "^2.4"
+                "symfony/yaml": "^4.3",
+                "twig/twig": "^2.11"
             },
             "type": "library",
             "autoload": {
@@ -136,7 +136,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-04-25T01:18:31+00:00"
+            "time": "2019-06-30T16:40:12+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -385,7 +385,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "selenesoftware/staticsite": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

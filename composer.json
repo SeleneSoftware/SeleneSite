@@ -1,6 +1,6 @@
 {
     "name": "selenesoftware/selenestaticskeleton",
     "require": {
-        "selenesoftware/staticsite": "*"
+        "selenesoftware/staticsite": "dev-plugins"
     }
 }

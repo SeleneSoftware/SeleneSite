@@ -1,6 +1,19 @@
 {
     "name": "selenesoftware/selenestaticskeleton",
     "require": {
-        "selenesoftware/staticsite": "dev-plugins"
+        "selenesoftware/staticsite": "0.0.4.x-dev",
+        "thepixeldeveloper/sitemap": "dev-master",
+        "symfony/dom-crawler": "^4.3",
+        "symfony/css-selector": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Selene\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Selene\\Tests\\": "tests/"
+        }
     }
 }

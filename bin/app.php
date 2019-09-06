@@ -20,6 +20,10 @@
 require_once __DIR__.'/../vendor/autoload.php';
 
 use Selene\StaticSite\Application;
+use Selene\SitemapPlugin\Sitemap;
 
 $app = new Application;
+
+$app->addPlugin(new Sitemap);
+
 $app->run();

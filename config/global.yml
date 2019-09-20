@@ -1,15 +1,16 @@
 global:
     title: Selene Software
     subtitle: Custom Web Software Development
-    headerImage: visions.jpg
+    headerImage: downtown-scaled.jpg
     google: UA-66067907-1
     cta: Contact Us Today
+    heapId: 948226463
 
 index:
     pictures:
         serviceOne: discover-m.jpg
         serviceTwo: exquisite-m.jpg
-        serviceThree: places-m.jpg
+        serviceThree: dreamstime-scaled.jpg
     description: "Selene Software is a custom web development firm in Detroit, specializing in PHP, JavaScript, and CSS.  We also provide simple digital marketing services, so feel free to contact us today."
 
 contact:

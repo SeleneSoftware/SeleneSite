@@ -62,7 +62,7 @@ class Sitemap implements PluginInterface
         $driver = new XmlWriterDriver();
         $this->urlset->accept($driver);
 
-        $f = fopen(getcwd() . '/web/sitemap.xml', 'a');
+        $f = fopen(getcwd() . '/web/sitemap.xml', 'w');
         fwrite($f, $driver->output());
         fclose($f);
     }

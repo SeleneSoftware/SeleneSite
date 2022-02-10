@@ -15,7 +15,7 @@
         "autoprefixer": "^9.6.1",
         "font-awesome": "^4.7.0",
         "foundation-sites": "^6.5.3",
-        "node-sass": "^4.10.0",
+        "node-sass": "^7.0.0",
         "postcss-loader": "^3.0.0",
         "sass-loader": "^7.3.1"
     },
